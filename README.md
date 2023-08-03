@@ -21,7 +21,7 @@
 
 <ul>Modulo 02</ul>
    <li><a href="modulo02/ex001/cor01.html">Ex001</a></li>    
-      <li><a href="modulo02/ex001/cor02.html">Ex001 - pág 02</a></li>
+      <li><a href="modulo02/ex001/cor02.html">Ex001 - pág 02</a><li>
       <li><a href="modulo02/ex001/cor03.html">Ex001 - pág 03</a><li>
 
    <li><a href="modulo02/ex001/cor01.html">Ex002</a></li>
