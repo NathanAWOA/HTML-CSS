@@ -20,16 +20,13 @@
    <li><a href="modulo01/ex015/index.html">Ex015</a></li>
 
 <ul>Modulo 02</ul>
-   <li><a href="modulo02/ex001/cor01.html">Ex001</a></li>    
-      <li><a href="modulo02/ex001/cor02.html">Ex001 - pág 02</a><li>
-      <li><a href="modulo02/ex001/cor03.html">Ex001 - pág 03</a><li>
-
-   <li><a href="modulo02/ex001/cor01.html">Ex002</a></li>
-   <li><a href="modulo02/ex001/cor01.html">Ex003</a></li>
-   <li><a href="modulo02/ex001/cor01.html">Ex004</a></li>
-   <li><a href="modulo02/ex001/cor01.html">Ex005</a></li>
-   <li><a href="modulo02/ex001/cor01.html">Ex006</a></li>
-   <li><a href="modulo02/ex001/cor01.html">Ex007</a></li>
+   <li><a href="modulo02/ex001/cor01.html">Ex001</a></li> 
+   <li><a href="modulo02/ex002/fontes.html">Ex002</a></li>
+   <li><a href="modulo02/ex003/fonte01.html">Ex003</a></li>
+   <li><a href="modulo02/ex004/seletor01.html">Ex004</a></li>
+   <li><a href="modulo02/ex005/index.html">Ex005</a></li>
+   <li><a href="modulo02/ex006/caixa01.html">Ex006</a></li>
+   <li><a href="modulo02/ex007/android.html">Ex007</a></li>
 
 <ul>Modulo 03</ul>
    <li><a href="modulo03/ex001/fundo01.html">Ex001</a></li>
