@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    height: 98vh;
+    border: 1px dashed black;
+    background-image: url(https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_480,c_limit,dpr_1/cdn/a3960fb6-0300-484a-bcc0-36098dba165e/9a6aae58-87a3-4c31-800e-80cb2529b8a7_560_420.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
