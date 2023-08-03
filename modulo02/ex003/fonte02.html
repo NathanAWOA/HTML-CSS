@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2 - Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url(/modulo02/ex003/love\ larry\ ttf.ttf) format('truetype'), url(/love\ larry.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (apple advenced typography)
+            - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit qui dolor iste ullam fugiat dolore molestias consectetur, praesentium maxime ex earum voluptatum recusandae cupiditate similique? Amet aut ex error.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab illum dignissimos iusto quasi accusantium omnis quos pariatur modi ducimus, doloribus officia possimus esse aliquid temporibus, tempore voluptate quod, earum hic.</p>
+
+    <p style="text-align: right;"><a href="/modulo02/ex003/fonte01.html"> Página 1</a> </p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex - 011: Midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture><!--tags para adaptar o tamanho das imagens no site. sempre precisa ser na ordem que em cima fica o menor tamanho e o ultimo la embaixo é a maior-->
+
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="/imagens/g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    
+    <!--<audio src="/midia/Blues Saraceno — Carry Me Back Home.mp3" controls autoplay></audio> MP3 WAV OGG. Infelizmente para certos navegadores não funfa então vamo tentar do jeito que ta ali em baixo mesmo, pq assim a gente evita dor de cabeça depois.-->
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="/modulo01/ex011/midia/Blues Saraceno — Carry Me Back Home.mp3" type="audio/mpeg">
+        <source src="/modulo01/ex011/midia/Blues Saraceno — Carry Me Back Home.mp3" type="audio/OGG--">
+        <source src="/modulo01/ex011/midia/Blues Saraceno — Carry Me Back Home.mp3" type="audio/WAV">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="/modulo01/ex011/midia/Blues Saraceno — Carry Me Back Home.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
+    <h1> </h1>
+    <p> </p>
+    
+
+</body>
+</html>

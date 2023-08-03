@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex - 012: Videos</title>
+</head>
+<body>
+    <h1> Inserindo vídeos hospedados localmente</h1>
+    <p> Este vídeo esta hospedado no meu próprio servidor.</p>
+
+    <!--
+    <video src="/midia/meme.mp4" width="1000" controls></video>
+    <video src="/midia/meme.m4v" width="1000" controls></video>
+    <video src="/midia/meme.webm" width="1000" controls></video>
+    <video src="/midia/meme.ogv" width="1000" controls></video>
+     -->
+
+     <video controls loop>
+        <source src="/modulo01/ex012/midia/meme.mp4" type="video/mp4">
+        <source src="/modulo01/ex012/midia/meme.m4v" type="video/m4v">
+        <source src="/modulo01/ex012/midia/meme.webm" type="video/webm">
+        <source src="/modulo01/ex012/midia/meme.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com o reprodutor de vídeos.</p>
+     </video><!--Videos hospedados assim podém lascar tudo o site pq fica muito pesado-->
+
+     <h1> Inserindo vídeos hospedados em serviços de vídeo</h1>
+     <p> Este vídeo está hospedado no <a href="https://www.youtube.com/watch?v=hPr-Yc92qaY" target="_blank" rel="external">Youtube</a>.</p>
+     
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/hPr-Yc92qaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+     <!--Seria uma boa usar um site de hospedagem de vídeo, seria um pouco mais profissional, porém acaba precisando pagar pelo serviço-->
+
+</body>
+</html>
