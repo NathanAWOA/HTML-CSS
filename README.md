@@ -1,7 +1,8 @@
 # HTML-CSS
  Estudos de HTML5 e CSS3
 
-<ul style="columns: 3;">
+<!--<ul style="columns: 3;">-->
+
 <ul>Modulo 01
    <li><a href="modulo01/ex001/index.html">Ex001</a></li>
    <li><a href="modulo01/ex002/index.html">Ex002</a></li>
@@ -33,4 +34,5 @@
 <ul>Modulo 03
    <li><a href="modulo03/ex001/fundo01.html">Ex001</a></li>
 </ul>
-</ul>
+
+<!--</ul>-->
