@@ -87,7 +87,7 @@
         <tr>
           <td class="feito"><a href="modulo01/ex003/index.html">Ex003</a></td>
           <td class="feito"><a href="modulo02/ex003/fonte01.html">Ex003</a></td>
-          <td class="fazendo"><a href="modulo03/ex003/tabela01.html">Ex003</a></td>
+          <td class="feito"><a href="modulo03/ex003/tabela01.html">Ex003</a></td>
         </tr>
         <tr>
           <td class="feito"><a href="modulo01/ex004/index.html">Ex004</a></td>
