@@ -1,7 +1,7 @@
 # HTML-CSS
  Estudos de HTML5 e CSS3
 
-<table>
+
    <style>
 
       html, body {
@@ -57,11 +57,9 @@
          color: white;
       }
 
-      footer {
+      tfoot {
          text-align: center;
-         width: 900px;
-         min-width: 500px;
-         max-width: 75vw;
+         font-weight: bold;
       }
     </style>
     <table>
@@ -157,9 +155,11 @@
           <td class="feito"><a href="modulo01/ex015/index.html">Ex015</a></td>
         </tr>
       </tbody>
+
+      <tfoot>
+        <tr>
+        <th colspan="5">Estudos HTML5 e CSS3</th>
+        </tr>
+      <tfoot>
     </table>
-    <footer>
-      <p>Estudos que eu fiz</p>
-    </footer>
-</table>
 
