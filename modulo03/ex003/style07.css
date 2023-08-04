@@ -29,3 +29,11 @@ caption {
     font-weight: bold;
     text-decoration: underline;
 }
+
+.cnome {
+    background-color: lightgray;
+}
+
+.cgrupo {
+    background-color: yellow;
+}

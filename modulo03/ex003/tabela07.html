@@ -10,16 +10,19 @@
     <h1>Exercício de Tabela:</h1>
 
     <table>
-        <colgroup>
-            
+        <colgroup> <!--COMANDO PARA CONSEGUIR MODIFICAR COLUNAS COM MAIS FACILIDADE-->
+            <col class="cnome">
+            <col class="cgrupo" span="2"><!--COMANDO PARA MODIFICAR  2 COLUNAS DE UMA SÓ VEZ-->
+
+            <col class="cprofissao">
         </colgroup>
         <caption> Cadastro</caption>
         <thead>
             <tr>
-                <td>Nome</td>
-                <td>Sexo</td>
-                <td>Idade</td>
-                <td>Profissão</td>
+                <td scope="col">Nome</td>
+                <td scope="col">Sexo</td>
+                <td scope="col">Idade</td>
+                <td scope="col">Profissão</td>
             </tr>
         </thead>
         <tbody>
