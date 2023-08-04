@@ -2,7 +2,8 @@
  Estudos de HTML5 e CSS3
 
 <meta charset="UTF-8">
-   <style>
+<table>
+<style>
       html, body {
          font-family: Arial, Helvetica, sans-serif;
       }
@@ -50,7 +51,7 @@
          font-weight: bold;
       }
   </style>
-    <table>
+<table>
       <thead>
         <th>Modulo 01</th>
         <th>Modulo 02</th>
@@ -147,6 +148,6 @@
         <tr>
         <th colspan="5">Estudos HTML5 e CSS3</th>
         </tr>
-      <tfoot>
-    </table>
-
+      </tfoot>
+ </table>
+</table>
