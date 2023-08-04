@@ -5,3 +5,26 @@ head, body {
     background-color: white;
     padding: 10px;
 }
+
+table {
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+thead {
+    color: white;
+}
+
+
+td, th {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+

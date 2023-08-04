@@ -3,11 +3,9 @@
 
 <table>
    <style>
-
       html, body {
          font-family: Arial, Helvetica, sans-serif;
       }
-
       table {
          min-width: 500px;
          max-width: 75vw;
@@ -16,52 +14,42 @@
          text-align: center;
          border-collapse: collapse;
       }
-
       thead {
          background-color: gray;
          padding: 10px;
       }
-
       td, th {
          border: 2px solid black;
          height: 25px;
       }
-
       .feito:hover{
          background-color: rgba(10, 138, 10, 0.747);
       }
-
       .fazendo:hover {
          background-color: rgba(255, 255, 0, 0.61);
       }
-      
       .vazio > p {
          display: none;
       }
-
       .vazio:hover {
          background-color: lightgray;
       }
-
       .vazio:hover > p {
          display: block;
          background-color: lightgray;
       }
-
       a {
          color: black;
          text-decoration: none;
       }
-
       a:hover {
          color: white;
       }
-
       tfoot {
          text-align: center;
          font-weight: bold;
       }
-    </style>
+  </style>
     <table>
       <thead>
         <th>Modulo 01</th>
@@ -155,7 +143,6 @@
           <td class="feito"><a href="modulo01/ex015/index.html">Ex015</a></td>
         </tr>
       </tbody>
-
       <tfoot>
         <tr>
         <th colspan="5">Estudos HTML5 e CSS3</th>
