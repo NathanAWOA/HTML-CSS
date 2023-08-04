@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+head, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 99vw;
+    /*
+    (COM A DIV + OVERFLOW AUTO NÃO PRECISA MAIS DISSO. A MENOS QUE VOCÊ QUEIRA UMA TABELA QUE SE ADAPTE AO TAMANHO DA TELA E NÃO APENAS UM SCROLL NA TABELA
+   */
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+caption {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(233, 233, 233);
+}
+
+/*
+div#container {
+    overflow: auto;   
+}
+
+(ESSE PODE SER USADO PARA QUE SÓ A TABELA POSSA TER A ROLAGEM)
+*/
