@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 03</title>
+    <link rel="stylesheet" href="style03.css">
+</head>
+<body>
+    <h1>Mesclagem de Tabelas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td colspan="2">B</td>
+                <!--"COLSPAN" SERVE PARA FAZER UMA CELULA OCUPAR UM ESPAÇO MAIOR, NESSE EXEMPLO A CELULA "B" OCUPA O ESPAÇO DE 2 CELULAS NA HORIZONTAL-->
+            </tr>
+            <tr>
+                <td rowspan="3">D</td>
+                <!--"ROWSPAN" SERVE PARA FAZER UMA CELULA OCUPAR UM ESPAÇO MAIOR, NESSE EXEMPLO A CELULA "D" OCUPA O ESPAÇO DE 3 CELULAS NA VERTICAL-->
+                <td>E</td>
+                <td rowspan="2">F</td>
+            </tr>
+            <tr>
+                <td>H</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>L</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="text-align: right;"><a href="tabela01.html">Página 01</a></p>
+    <p style="text-align: right;"><a href="tabela02.html">Página 02</a></p>
+    <p style="text-align: right;"><a href="tabela04.html">Página 04</a></p>
+</body>
+</html>

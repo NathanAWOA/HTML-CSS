@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+head, body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table {
+    padding: 10px;
+}
+
+thead {
+    background-color: lightgray;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}

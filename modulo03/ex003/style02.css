@@ -8,6 +8,7 @@ body {
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 
 }
 
@@ -16,16 +17,44 @@ td, th {
     padding: 10px;
 }
 
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+thead, tfoot {
+    background-color: rgba(17, 17, 17, 0.863);
+    color: white;
+}
+
+thead > tr > th { /*RECURSO PARA FAZER O CABEÇALHO DESCER JUNTO COM A TELA E FACILITAR A COMPREENSÃO DAS TABELAS. PRECISA USAR "position: relative;" NA CONFIGURAÇÃO DA TABELA*/
+    position: sticky;
+    top: -1px;
+    background-color: rgba(17, 17, 17, 0.863);
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: gray;
+}
+
 .num {
     text-align: right;
 }
 
-thead, tfoot {
-    background-color: gray;
-    color: white;
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
-tfoot {
+/* TAMBÉM DA PRA FAZER EFEITO ZEBRADO ASSIM. A QUE TEM O "ODD" AFETA TODAS AS LINHAS IMPARES E A "EVEN" TODAS AS PARES, LEMBRANDO QUE NESSE EXEMPLO ELAS SÓ AFETAM O QUE ESTA DENTRO DO "TBODY".
 
+tbody > tr:nth-child(odd) {
+    background-color: white;
 }
 
+tbody > tr:nth-child(even) {
+    background-color: lightgray;
+}
+*/
