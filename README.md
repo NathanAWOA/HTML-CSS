@@ -1,7 +1,7 @@
 # HTML-CSS
  Estudos de HTML5 e CSS3
 
-<table>
+<meta charset="UTF-8">
    <style>
       html, body {
          font-family: Arial, Helvetica, sans-serif;
@@ -149,5 +149,4 @@
         </tr>
       <tfoot>
     </table>
-</table>
 
