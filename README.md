@@ -77,12 +77,13 @@
           <td class="feito"><a href="modulo01/ex002/index.html">Ex002</a></td>
           <td class="feito"><a href="modulo02/ex002/fontes.html">Ex002</a></td>
           <td class="feito"><a href="modulo03/ex002/index.html">Ex002</a></td>
-          <td class="fazendo"><a href="modulo04/ex002/index.html">Ex002</a></td>
+          <td class="feito"><a href="modulo04/ex002/index.html">Ex002</a></td>
         </tr>
         <tr>
           <td class="feito"><a href="modulo01/ex003/index.html">Ex003</a></td>
           <td class="feito"><a href="modulo02/ex003/fonte01.html">Ex003</a></td>
           <td class="feito"><a href="modulo03/ex003/tabela01.html">Ex003</a></td>
+          <td class="feito"><a href="modulo04/ex003/form01.html">Ex003</a></td>
         </tr>
         <tr>
           <td class="feito"><a href="modulo01/ex004/index.html">Ex004</a></td>
