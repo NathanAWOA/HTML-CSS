@@ -4,51 +4,51 @@
 <table>
    <style>
 
-html, body {
-    font-family: Arial, Helvetica, sans-serif;
-}
+      html, body {
+         font-family: Arial, Helvetica, sans-serif;
+      }
 
-table {
-    min-width: 500px;
-    max-width: 75vw;
-    width: 900px;
-    padding: 10px;
-    text-align: center;
-    border-collapse: collapse;
-}
+      table {
+         min-width: 500px;
+         max-width: 75vw;
+         width: 900px;
+         padding: 10px;
+         text-align: center;
+         border-collapse: collapse;
+      }
 
-thead {
-    background-color: gray;
-    padding: 10px;
-}
+      thead {
+         background-color: gray;
+         padding: 10px;
+      }
 
-td, th {
-    border: 2px solid black;
-}
+      td, th {
+         border: 2px solid black;
+      }
 
-.feito:hover{
-    background-color: rgba(10, 138, 10, 0.747);
-}
+      .feito:hover{
+         background-color: rgba(10, 138, 10, 0.747);
+      }
 
-.fazendo:hover {
-    background-color: rgba(255, 255, 0, 0.61);
-}
+      .fazendo:hover {
+         background-color: rgba(255, 255, 0, 0.61);
+      }
 
-a {
-    color: black;
-    text-decoration: none;
-}
+      a {
+         color: black;
+         text-decoration: none;
+      }
 
-a:hover {
-    color: white;
-}
+      a:hover {
+         color: white;
+      }
 
-footer {
-    text-align: center;
-    width: 900px;
-    min-width: 500px;
-    max-width: 75vw;
-}
+      footer {
+         text-align: center;
+         width: 900px;
+         min-width: 500px;
+         max-width: 75vw;
+      }
     </style>
     <table>
       <thead>
