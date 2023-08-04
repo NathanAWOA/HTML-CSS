@@ -33,7 +33,7 @@
 
 <ul>Modulo 03
    <li><a href="modulo03/ex001/fundo01.html">Ex001</a></li>
-   <li><a href="modulo03/ex001/index.html">Ex002</a></li>
+   <li><a href="modulo03/ex002/index.html">Ex002</a></li>
 </ul>
 
 <!--</ul>-->
