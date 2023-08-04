@@ -64,7 +64,7 @@
           <td class="feito"><a href="modulo01/ex001/index.html">Ex001</a></td>
           <td class="feito"><a href="modulo02/ex001/cor01.html">Ex001</a></td>
           <td class="feito"><a href="modulo03/ex001/fundo01.html">Ex001</a></td>
-          <td class="fazendo"><a href="modulo04/ex001/iframe01.html">Ex001</a></td>
+          <td class="feito"><a href="modulo04/ex001/iframe01.html">Ex001</a></td>
           <td class="vazio" rowspan="15">
             <p>V</p>
             <p>A</p>
