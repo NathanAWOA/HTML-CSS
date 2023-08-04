@@ -77,13 +77,7 @@
           <td class="feito"><a href="modulo01/ex002/index.html">Ex002</a></td>
           <td class="feito"><a href="modulo02/ex002/fontes.html">Ex002</a></td>
           <td class="feito"><a href="modulo03/ex002/index.html">Ex002</a></td>
-          <td class="vazio" rowspan="14">
-            <p>V</p>
-            <p>A</p>
-            <p>Z</p>
-            <p>I</p>
-            <p>O</p>
-          </td>
+          <td class="fazendo"><a href="modulo04/ex002/index.html">Ex002</a></td>
         </tr>
         <tr>
           <td class="feito"><a href="modulo01/ex003/index.html">Ex003</a></td>
@@ -93,6 +87,13 @@
         <tr>
           <td class="feito"><a href="modulo01/ex004/index.html">Ex004</a></td>
           <td class="feito"><a href="modulo02/ex004/seletor01.html">Ex004</a></td>
+          <td class="vazio" rowspan="12">
+            <p>V</p>
+            <p>A</p>
+            <p>Z</p>
+            <p>I</p>
+            <p>O</p>
+          </td>
           <td class="vazio" rowspan="12">
             <p>V</p>
             <p>A</p>
