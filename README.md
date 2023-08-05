@@ -95,7 +95,7 @@
             <p>I</p>
             <p>O</p>
           </td>
-          <td class="fazendo"><a href="modulo04/ex004/index.html">Ex004</a></td>
+          <td class="fazendo"><a href="modulo04/ex004/mq001/index.html">Ex004</a></td>
         </tr>
         <tr>
           <td class="feito"><a href="modulo01/ex005/index.html">Ex005</a></td>
