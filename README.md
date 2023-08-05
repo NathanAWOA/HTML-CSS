@@ -83,7 +83,7 @@
           <td class="feito"><a href="modulo01/ex003/index.html">Ex003</a></td>
           <td class="feito"><a href="modulo02/ex003/fonte01.html">Ex003</a></td>
           <td class="feito"><a href="modulo03/ex003/tabela01.html">Ex003</a></td>
-          <td class="fazendo"><a href="modulo04/ex003/form01.html">Ex003</a></td>
+          <td class="feito"><a href="modulo04/ex003/form01.html">Ex003</a></td>
         </tr>
         <tr>
           <td class="feito"><a href="modulo01/ex004/index.html">Ex004</a></td>
@@ -95,6 +95,11 @@
             <p>I</p>
             <p>O</p>
           </td>
+          <td class="fazendo"><a href="modulo04/ex004/index.html">Ex004</a></td>
+        </tr>
+        <tr>
+          <td class="feito"><a href="modulo01/ex005/index.html">Ex005</a></td>
+          <td class="feito"><a href="modulo02/ex005/index.html">Ex005</a></td>
           <td class="vazio" rowspan="12">
             <p>V</p>
             <p>A</p>
@@ -102,10 +107,6 @@
             <p>I</p>
             <p>O</p>
           </td>
-        </tr>
-        <tr>
-          <td class="feito"><a href="modulo01/ex005/index.html">Ex005</a></td>
-          <td class="feito"><a href="modulo02/ex005/index.html">Ex005</a></td>
         </tr>
         <tr>
           <td class="feito"><a href="modulo01/ex006/html4.html">Ex006</a></td>
