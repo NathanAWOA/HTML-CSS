@@ -95,22 +95,23 @@
             <p>I</p>
             <p>O</p>
           </td>
-          <td class="fazendo"><a href="modulo04/ex004/mq001/index.html">Ex004</a></td>
+          <td class="feito"><a href="modulo04/ex004/mq001/index.html">Ex004</a></td>
         </tr>
         <tr>
           <td class="feito"><a href="modulo01/ex005/index.html">Ex005</a></td>
           <td class="feito"><a href="modulo02/ex005/index.html">Ex005</a></td>
-          <td class="vazio" rowspan="12">
+          <td class="feito"><a href="modulo04/ex005/index.html">Ex005</a></td>
+        </tr>
+        <tr>
+          <td class="feito"><a href="modulo01/ex006/html4.html">Ex006</a></td>
+          <td class="feito"><a href="modulo02/ex006/caixa01.html">Ex006</a></td>
+          <td class="vazio" rowspan="11">
             <p>V</p>
             <p>A</p>
             <p>Z</p>
             <p>I</p>
             <p>O</p>
           </td>
-        </tr>
-        <tr>
-          <td class="feito"><a href="modulo01/ex006/html4.html">Ex006</a></td>
-          <td class="feito"><a href="modulo02/ex006/caixa01.html">Ex006</a></td>
         </tr>
         <tr>
           <td class="feito"><a href="modulo01/ex007/index.html">Ex007</a></td>
