@@ -34,7 +34,6 @@ TELAS GRANDES: ACIMA DE 1200PX
     img#tv {display: none;}
 }
 
-}
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /*TABLETS*/
     body {
