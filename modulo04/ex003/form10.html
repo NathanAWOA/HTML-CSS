@@ -3,35 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario 02</title>
+    <title>Formulário 10</title>
 </head>
 <body>
-    <h1>Teste de Formulario</h1>
-    <form action="cadastro.php" method="POST" autocomplete="on">
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        
         <p>
-            <label for="iusu">Usuário: </label>
-            <input type="text" name="usu" id="iusu" required minlength="5" size="10" placeholder="nome do usuario" autocomplete="username">
+            <label for="inao">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2020" oninput="calcIdade()">
+            
         </p>
 
         <p>
-            <label for="isen">Senha: </label>
-            <input type="password" name="sen" id="isen" required minlength="8" size="8" placeholder="minimo 8 letras" autocomplete="current-password">
+            <label for="iidade">Esse ano você completa:</label>
+            <output id="iidade">0</output>
         </p>
-        
+
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
     </form>
 
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+
     <p style="text-align: right;"><a href="form01.html">Pagina 1</a></p>
+    <p style="text-align: right;"><a href="form02.html">Pagina 2</a></p>
     <p style="text-align: right;"><a href="form03.html">Pagina 3</a></p>
     <p style="text-align: right;"><a href="form04.html">Pagina 4</a></p>
     <p style="text-align: right;"><a href="form05.html">Pagina 5</a></p>
     <p style="text-align: right;"><a href="form06.html">Pagina 6</a></p>
     <p style="text-align: right;"><a href="form07.html">Pagina 7</a></p>
     <p style="text-align: right;"><a href="form08.html">Pagina 8</a></p>
-    <p style="text-align: right;"><a href="form09.html">Pagina 9</a></p>
-    <p style="text-align: right;"><a href="form10.html">Pagina 10</a></p>
+    <p style="text-align: right;"><a href="form09.html">Pagina 9</a></p>    
 </body>
 </html>
